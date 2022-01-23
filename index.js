@@ -10,7 +10,7 @@ if(firstAnswer === 'left'){
         }else if(thidAnswer === 'Follow') {
             window.alert ('After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless.')
         }
-
+    else if(secondAnswer ==='')
         }
     }
 } else if(firstAnswer === "right") {
