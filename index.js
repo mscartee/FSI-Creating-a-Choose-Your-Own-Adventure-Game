@@ -11,11 +11,11 @@ if(firstAnswer === 'left'){
             window.alert ('After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless.')
         }
     }else if(secondAnswer ==='Continue'){
-        let thirdAnswer = window.prompt('You come across a chamber that reaches upward to a shining light above. There is a long, winding staircase, and a much quicker, but rickety-looking ladder that leads up toward the light. Which do you take?')
+        let thirdAnswer = window.prompt('You come across a chamber that reaches upward to a shining light above. There is a long, winding staircase, and a much quicker, but rickety-looking ladder that leads up toward the light. Which do you take? Options Ladder or Stairs')
         if(thirdAnswer === 'Ladder') {
             window.alert ('After ascending a few feet up the ladder, one of its rungs snaps, and you comedically fall through each of the rungs below. Sheepish, you return home.')
             console.log(thirdAnswer)
-        }else if(thirdAnswer === 'Stair') {
+        }else if(thirdAnswer === 'Stairs') {
             window.alert ('After ascending the staircase, you discover a shiny blue stone, which you take home and cherish forever.')
         }
     }
@@ -31,7 +31,7 @@ if(firstAnswer === 'left'){
             window.alert ("Quickly, you run back to the cave's entrance. Sheepish, you return home")
         }
     }else if(secondAnswer === "Away"){
-    let thirdAnswer = window.prompt('After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it. Which do you do?')
+    let thirdAnswer = window.prompt('After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it. Which do you do, Draw or Pick')
     if(thirdAnswer === "Draw") {
         window.alert ('You draw the flower, capturing only a fraction of its beauty with your quill. You bring the drawing home, somewhat disappointed, but over time, discover joy in sharing it with your friends and family, recounting the story of your days as a sorcerer with the aid of the sketch.')
     } else if(thirdAnswer ==="Pick") {
